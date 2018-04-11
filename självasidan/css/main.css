@@ -98,21 +98,23 @@ textarea {
    ========================================================================== */
 body{
     display: grid;
-    grid-template-columns: 200px auto 200px;
-    grid-template-rows: 10vh 90vh;
+    grid-template-columns: 15vw auto 15vw;
+    grid-template-rows: 10vh 200vh;
     background: antiquewhite;
 }
-header{
+.huvud{
     display: grid;
-    grid-template-columns: 200px auto 200px;
+    grid-template-columns: 15vw auto 15vw;
     background: antiquewhite;
     border-bottom: 5px solid forestgreen;
     grid-column: 1 / 4;
+    position: fixed;
+    width: 100vw;
 }
 section{
     display: grid;
     grid-template-columns: 75% 25%;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 15vh auto;
     background: hotpink;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
@@ -126,6 +128,7 @@ section header{
     background: rosybrown;
     grid-column: 1 / 3;
     grid-row: 1 / 2;
+    position: static;
 }
 section main{
     background: peru;

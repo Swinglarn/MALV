@@ -96,22 +96,31 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body{
+body {
     display: grid;
     grid-template-columns: 15vw auto 15vw;
-    grid-template-rows: 10vh 200vh;
+    grid-template-rows: 15vh 85vh;
     background: antiquewhite;
 }
 .huvud{
     display: grid;
     grid-template-columns: 15vw auto 15vw;
+    grid-template-rows: 10vh 5vh;
     background: antiquewhite;
     border-bottom: 5px solid forestgreen;
     grid-column: 1 / 4;
     position: fixed;
     width: 100vw;
 }
-section{
+header .knappar {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-template-columns: 75px 75px 75px 75px;
+    width: 75px;
+    text-align: center;
+    color: white;
+}
+section {
     display: grid;
     grid-template-columns: 75% 25%;
     grid-template-rows: 15vh auto;
@@ -119,22 +128,22 @@ section{
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
-img{
+img {
     grid-column-start: 2;
     height: 10vh;
     width: auto;
 }
-section header{
+section header {
     background: rosybrown;
     grid-column: 1 / 3;
     grid-row: 1 / 2;
     position: static;
 }
-section main{
+section main {
     background: peru;
     grid-area: 2 / 1 / 3 / 2;
 }
-section aside{
+section aside {
     background: lavender;
     grid-area: 2 / 2 / 3 / 3;
 }

@@ -99,7 +99,7 @@ textarea {
 body {
     display: grid;
     grid-template-columns: 15vw auto 15vw;
-    grid-template-rows: 15vh 85vh;
+    grid-template-rows: 15vh 200vh;
     background: antiquewhite;
 }
 .huvud{

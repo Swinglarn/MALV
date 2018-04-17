@@ -107,24 +107,24 @@ body {
     grid-template-columns: 15vw auto 15vw;
     grid-template-rows: 10vh 5vh;
     background: antiquewhite;
-    border-bottom: 5px solid forestgreen;
     grid-column: 1 / 4;
     position: fixed;
-    width: 100vw;
 }
 header .knappar {
     display: grid;
-    grid-column: 2 / 3;
+    grid-column: 1 / 4;
     grid-template-columns: 75px 75px 75px 75px;
-    width: 75px;
     text-align: center;
+    background: forestgreen;
+}
+.knappar a {
     color: white;
+    text-decoration: none;
 }
 section {
     display: grid;
     grid-template-columns: 75% 25%;
     grid-template-rows: 15vh auto;
-    background: hotpink;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
@@ -147,7 +147,6 @@ section aside {
     background: lavender;
     grid-area: 2 / 2 / 3 / 3;
 }
-
 
 
 

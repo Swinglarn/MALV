@@ -148,9 +148,13 @@ section aside {
     grid-area: 2 / 2 / 3 / 3;
 }
 
-section aside img{
+.reklamaside img{
     height: auto;
     width: 100%;
+}
+
+aside{
+    grid-area: 2 / 3 / 4 /4;
 }
 
 

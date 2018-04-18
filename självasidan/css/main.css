@@ -154,8 +154,9 @@ section aside {
 }
 
 .reklamaside img{
+    margin-top: 15px;
     height: auto;
-    width: 100%;
+    width: 90%;
 }
 
 aside{

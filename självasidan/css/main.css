@@ -153,6 +153,12 @@ section aside {
     grid-area: 2 / 2 / 3 / 3;
 }
 
+section aside img{
+    height: auto;
+    width: 100%;
+}
+
+
 
 
 

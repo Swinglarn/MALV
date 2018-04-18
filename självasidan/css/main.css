@@ -104,7 +104,7 @@ body {
 }
 .huvud{
     display: grid;
-    grid-template-columns: 15vw auto 15vw;
+    grid-template-columns: 15vw 70vw 15vw;
     grid-template-rows: 10vh 5vh;
     background: antiquewhite;
     grid-column: 1 / 4;
@@ -147,6 +147,12 @@ section aside {
     background: lavender;
     grid-area: 2 / 2 / 3 / 3;
 }
+
+section aside img{
+    height: auto;
+    width: 100%;
+}
+
 
 
 

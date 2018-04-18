@@ -99,7 +99,7 @@ textarea {
 body {
     display: grid;
     grid-template-columns: 15vw 70vw 15vw;
-    grid-template-rows: 15vh 200vh;
+    grid-template-rows: 15vh 200vh 15vh;
     background: antiquewhite;
     box-sizing: border-box;
 }
@@ -160,6 +160,10 @@ section aside {
 
 aside{
     grid-area: 2 / 3 / 4 /4;
+}
+footer{
+    background: white;
+    grid-area: 3 / 1 / 5 / 5;
 }
 
 

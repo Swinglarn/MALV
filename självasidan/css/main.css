@@ -146,21 +146,49 @@ section main {
 section aside {
     background: lavender;
     grid-area: 2 / 2 / 3 / 3;
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: .5% 20% .5% 20% .5% 20% .5% 20%;
+    height: auto;
 }
 
+ section aside div {
+    grid-column: 2;
+     margin-top: 1vh;
+     height: auto;
+     border: solid lightgray 2px;
+}
 
+ .asideReklam{
+     background: yellow;
 
+ }
 
+ .asideArtikel{
+     background: greenyellow;
 
+ }
 
+.asideReklam img {
+    width: 100%;
+    height: auto;
+}
 
+.ett{
+    grid-row: 2;
+}
 
+.två{
+    grid-row: 4;
+}
 
+.tre{
+    grid-row: 6;
+}
 
-
-
-
-
+.fyra{
+    grid-row: 8;
+}
 
 
 /* ==========================================================================

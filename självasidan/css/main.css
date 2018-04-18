@@ -140,12 +140,46 @@ section header {
     position: static;
 }
 section main {
-    background: peru;
+    background: white;
     grid-area: 2 / 1 / 3 / 2;
+
+    display: grid;
+    grid-template-rows: 50vh 35vh 35vh 35vh 35vh;
+    grid-template-columns: 100%;
 }
 section aside {
     background: lavender;
     grid-area: 2 / 2 / 3 / 3;
+}
+
+section main article{
+    background-image: url("https://bilder.bild.de/fotos-skaliert/kai-diekmann-publisher-at-bild-and-nikolaus-blome-editor-in-chief-politcs-meet-russian-president-wla-44105836/1,w=993,q=high,c=0.bild.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+    border: solid lightgrey 2px;
+    grid-column: 1 / 2;
+    display: grid;
+    grid-template-rows: 35vh 5vh 10vh;
+    grid-template-columns: 10% 80% 10% ;
+}
+section main article header{
+    background: lightyellow;
+    color: black;
+    font-size: 300%;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+section main article img{
+    grid-row: 1 / 2;
+    width: 100%;
+    height: 75%;
+
+}
+section main article p{
+   grid-row: 3 / 4;
+    grid-column: 2 / 3;
+    background: white;
 }
 
 

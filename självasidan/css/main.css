@@ -98,28 +98,33 @@ textarea {
    ========================================================================== */
 body {
     display: grid;
-    grid-template-columns: 15vw auto 15vw;
-    grid-template-rows: 15vh 200vh;
+    grid-template-columns: 15vw 70vw 15vw;
+    grid-template-rows: 15vh 200vh 15vh;
     background: antiquewhite;
+    box-sizing: border-box;
 }
-.huvud{
+.huvud {
     display: grid;
-    grid-template-columns: 15vw auto 15vw;
-    grid-template-rows: 10vh 5vh;
+    grid-template-columns: 15vw 70vw 15vw;
     background: antiquewhite;
     grid-column: 1 / 4;
     position: fixed;
 }
-header .knappar {
+header .navbar {
     display: grid;
-    grid-column: 1 / 4;
-    grid-template-columns: 75px 75px 75px 75px;
+    grid-column: 1 / 6;
+    grid-template-columns: 15vw 70vw 15vw;
     text-align: center;
     background: forestgreen;
 }
-.knappar a {
+.navbar a {
     color: white;
     text-decoration: none;
+}
+.knappar {
+    display: grid;
+    grid-column-start: 2;
+    grid-template-columns: 75px 75px 75px 75px;
 }
 section {
     display: grid;
@@ -150,6 +155,10 @@ section main {
 section aside {
     background: lavender;
     grid-area: 2 / 2 / 3 / 3;
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: .5% 20% .5% 20% .5% 20% .5% 20%;
+    height: auto;
 }
 
 section main article{
@@ -174,6 +183,17 @@ section main article img{
     grid-row: 1 / 2;
     width: 100%;
     height: 75%;
+ section aside div {
+    grid-column: 2;
+     margin-top: 1vh;
+     height: auto;
+     border: solid lightgray 2px;
+}
+.reklamaside img{
+    margin-top: 15px;
+    height: auto;
+    width: 90%;
+}
 
 }
 section main article p{
@@ -181,20 +201,43 @@ section main article p{
     grid-column: 2 / 3;
     background: white;
 }
+ .asideReklam{
+     background: yellow;
+aside{
+    grid-area: 2 / 3 / 4 /4;
+}
+footer{
+    background: white;
+    grid-area: 3 / 1 / 5 / 5;
+}
 
+ }
 
+ .asideArtikel{
+     background: greenyellow;
 
+ }
 
+.asideReklam img {
+    width: 100%;
+    height: auto;
+}
 
+.ett{
+    grid-row: 2;
+}
 
+.två{
+    grid-row: 4;
+}
 
+.tre{
+    grid-row: 6;
+}
 
-
-
-
-
-
-
+.fyra{
+    grid-row: 8;
+}
 
 
 /* ==========================================================================

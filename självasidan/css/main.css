@@ -170,7 +170,7 @@ section main article{
     grid-column: 1 / 2;
     display: grid;
     grid-template-rows: 35vh 5vh 10vh;
-    grid-template-columns: 10% 80% 10% ;
+    grid-template-columns: 10% 80% 10%;
 }
 section main article header{
     background: lightyellow;

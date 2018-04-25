@@ -207,14 +207,20 @@ aside{
     grid-area: 2 / 3 / 4 /4;
 }
 footer{
+    display: grid;
     background: white;
     grid-area: 3 / 1 / 5 / 5;
+    grid-template-columns: 15% 20% 30% 20% 15%;
 }
 
- .asideArtikel{
-     background: greenyellow;
+footer div {
+    grid-column: 2 / 4;
+}
 
- }
+.asideArtikel{
+    background: greenyellow;
+
+}
 
 .asideReklam img {
     width: 100%;

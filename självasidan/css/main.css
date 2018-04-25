@@ -129,7 +129,7 @@ header .navbar {
 section {
     display: grid;
     grid-template-columns: 75% 25%;
-    grid-template-rows: 15vh auto;
+    grid-template-rows: 50vh auto;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
@@ -138,6 +138,12 @@ img {
     height: 10vh;
     width: auto;
 }
+
+section header img{
+    width: 100%;
+    height: 100%;
+}
+
 section header {
     background: rosybrown;
     grid-column: 1 / 3;

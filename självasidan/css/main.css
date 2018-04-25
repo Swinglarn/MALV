@@ -96,17 +96,22 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: grid;
     grid-template-columns: 15vw 70vw 15vw;
     grid-template-rows: 15vh 200vh 15vh;
-    background: antiquewhite;
+    background: lavender;
     box-sizing: border-box;
 }
 .huvud {
     display: grid;
     grid-template-columns: 15vw 70vw 15vw;
-    background: antiquewhite;
+    background: lavender;
     grid-column: 1 / 4;
     position: fixed;
 }
@@ -115,7 +120,7 @@ header .navbar {
     grid-column: 1 / 6;
     grid-template-columns: 15vw 70vw 15vw;
     text-align: center;
-    background: forestgreen;
+    background: green;
 }
 .navbar a {
     color: white;
@@ -145,11 +150,10 @@ section header {
     position: static;
 }
 section main {
-    background: white;
+    background: lavender;
     grid-area: 2 / 1 / 3 / 2;
-
     display: grid;
-    grid-template-rows: 50vh 35vh 35vh 35vh 35vh;
+    grid-template-rows: 60vh 60vh 60vh 60vh;
     grid-template-columns: 100%;
 }
 section aside {
@@ -162,27 +166,25 @@ section aside {
 }
 
 section main article{
-    background-image: url("https://bilder.bild.de/fotos-skaliert/kai-diekmann-publisher-at-bild-and-nikolaus-blome-editor-in-chief-politcs-meet-russian-president-wla-44105836/1,w=993,q=high,c=0.bild.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 20px;
+    margin-bottom: 5vh;
     border: solid lightgrey 2px;
     grid-column: 1 / 2;
     display: grid;
-    grid-template-rows: 35vh 5vh 10vh;
+    grid-template-rows: 4vh 35vh 5vh 6vh;
     grid-template-columns: 10% 80% 10%;
+    background: white;
 }
 section main article header{
-    background: lightyellow;
     color: black;
-    font-size: 300%;
-    grid-row: 2 / 3;
+    background: white;
+    font-size: 270%;
+    grid-row: 3 / 4;
     grid-column: 2 / 3;
 }
 section main article img {
-    grid-row: 1 / 2;
+    grid-row: 2 / 3;
     width: 100%;
-    height: 75%;
+    height:  75%;
 }
  section aside div {
     grid-column: 2;
@@ -196,7 +198,7 @@ section main article img {
     width: 90%;
 }
 section main article p{
-   grid-row: 3 / 4;
+   grid-row: 4 / 5;
     grid-column: 2 / 3;
     background: white;
 }

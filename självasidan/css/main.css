@@ -102,6 +102,7 @@ body {
     grid-template-rows: 15vh 200vh 15vh;
     background: antiquewhite;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 .huvud {
     display: grid;
@@ -213,6 +214,11 @@ footer{
 
  .asideArtikel{
      background: greenyellow;
+
+ }
+
+ .asideArtikel header {
+     background: red;
 
  }
 

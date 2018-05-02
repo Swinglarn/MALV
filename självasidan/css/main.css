@@ -211,6 +211,7 @@ section main article p{
 }
 .asideReklam {
     background: yellow;
+
 }
 aside{
     grid-area: 2 / 3 / 4 /4;
@@ -238,7 +239,7 @@ footer div {
 
 .asideReklam img {
     width: 100%;
-    height: auto;
+    height: 90%;
 }
 
 .ett{

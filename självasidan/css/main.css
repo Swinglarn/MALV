@@ -119,7 +119,7 @@ body {
 header .navbar {
     display: grid;
     grid-column: 1 / 6;
-    grid-template-columns: 15vw 70vw 15vw;
+    grid-template-columns: 15vw;
     text-align: center;
     background: green;
 }
@@ -131,6 +131,11 @@ header .navbar {
     display: grid;
     grid-column-start: 2;
     grid-template-columns: 75px 75px 75px 75px;
+    height: 5vh;
+
+}
+div div p{
+    align-self: center;
 }
 section {
     display: grid;
@@ -219,13 +224,10 @@ aside{
 footer{
     display: grid;
     background: white;
-    grid-area: 3 / 1 / 5 / 5;
-    grid-template-columns: 15% 20% 30% 20% 15%;
+
 }
 
-footer div {
-    grid-column: 2 / 4;
-}
+
 
 .asideArtikel{
     background: greenyellow;
